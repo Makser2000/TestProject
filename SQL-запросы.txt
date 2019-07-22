@@ -1,29 +1,17 @@
-1)список аэропортов
- 
-select NameOfAirport from Airport
+1) select NameOfAirport from Airport
 
-2) список пилотов аэропорта с наименованием A
+2) select FullName from Pilot,Airport ap
+   where Airport=ap.OID and ap.NameOfAirport='А'
 
-select FullName from Pilot,Airport ap
-where Airport=ap.OID and ap.NameOfAirport='А'
+3) select NameOfPlane from Plane,Airport ap
+   where Airport=ap.OID and ap.NameOfAirport='А'
 
-3) список самолетов аэропорта с наименованием A
+4) select NameOfPlane from Plane p,Pilot pl,PlanePlanes_PilotPilots
+   where pl.FullName='P' and pl.OID=Pilots and p.OID=Planes
 
-select NameOfPlane from Plane,Airport ap
-where Airport=ap.OID and ap.NameOfAirport='А'
+5) select FullName from Pilot pl,Plane p 
+   where p.NameOfPlane='S' and p.Airport=pl.Airport
 
-4) список самолетов закрепленных за пилотом с именем P
-
-select NameOfPlane from Plane p,Pilot pl,PlanePlanes_PilotPilots
-where pl.FullName='P' and pl.OID=Pilots and p.OID=Planes
-
-5) список пилотов которые могут летать на самолете с обозначением S
-
-select FullName from Pilot pl,Plane p 
-where p.NameOfPlane='S' and p.Airport=pl.Airport
-
-6) список аэропортов с кол-вом пилотов, приписанных к каждому аэропорту, выводить только те аэропорты, у которых кол-во пилотов > 10. 
-
-select NameOfAirport from (select NameOfAirport, Count(*) as count from  (select NameOfAirport,FullName from Airport,Pilot
-where Pilot.Airport=Airport.OID) x group by NameOfAirport) y 
-where y.count>10
+6) select NameOfAirport from (select NameOfAirport, Count(*) as count from  (select NameOfAirport,FullName from Airport,Pilot
+   where Pilot.Airport=Airport.OID) x group by NameOfAirport) y 
+   where y.count>10
