@@ -133,5 +133,4 @@ C:\Users\makar\source\repos\TestProject\TestProject.Module\bin\Debug\Mylab.dll
 C:\Users\makar\source\repos\TestProject\TestProject.Module\bin\Debug\Mylab.pdb
 C:\Users\makar\source\repos\Testproject\TestProject.Module\obj\Debug\TestProject.Module.Controllers.ViewController1.resources
 C:\Users\makar\source\repos\Testproject\TestProject.Module\obj\Debug\TestProject.Module.csproj.GenerateResource.cache
-C:\Users\makar\source\repos\Testproject\TestProject.Module\obj\Debug\TestProject.Module.Controllers.ViewController2.resources
 C:\Users\makar\source\repos\TestProject\TestProject.Module\bin\Debug\DevExpress.RichEdit.v19.1.Export.dll

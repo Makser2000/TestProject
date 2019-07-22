@@ -44,7 +44,7 @@ namespace TestProject.Module.Controllers
 
 		private void simpleAction1_Execute(object sender, SimpleActionExecuteEventArgs e)
 		{
-			string connectionString = MSSqlConnectionProvider.GetConnectionString("(local)", "TestProject");
+			string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Password=;User ID=Admin;Data Source=TestProject.mdb;Mode=Share Deny None;";
 			XpoDefault.DataLayer = XpoDefault.GetDataLayer(connectionString, AutoCreateOption.DatabaseAndSchema);
 			Session session = new Session();
 			for (int i = 1; i < 101; i++)

@@ -125,12 +125,6 @@
     <Compile Include="Controllers\ViewController1.Designer.cs">
       <DependentUpon>ViewController1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\ViewController2.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Controllers\ViewController2.Designer.cs">
-      <DependentUpon>ViewController2.cs</DependentUpon>
-    </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
@@ -143,9 +137,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Controllers\ViewController1.resx">
       <DependentUpon>ViewController1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controllers\ViewController2.resx">
-      <DependentUpon>ViewController2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
     <EmbeddedResource Include="Properties\licenses.licx" />
