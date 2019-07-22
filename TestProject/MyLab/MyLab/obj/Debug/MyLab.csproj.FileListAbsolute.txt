@@ -1,0 +1,6 @@
+C:\Users\makar\source\repos\MyLab\MyLab\bin\Debug\MyLab.dll
+C:\Users\makar\source\repos\MyLab\MyLab\bin\Debug\MyLab.pdb
+C:\Users\makar\source\repos\MyLab\MyLab\obj\Debug\MyLab.csprojAssemblyReference.cache
+C:\Users\makar\source\repos\MyLab\MyLab\obj\Debug\MyLab.csproj.CoreCompileInputs.cache
+C:\Users\makar\source\repos\MyLab\MyLab\obj\Debug\MyLab.dll
+C:\Users\makar\source\repos\MyLab\MyLab\obj\Debug\MyLab.pdb

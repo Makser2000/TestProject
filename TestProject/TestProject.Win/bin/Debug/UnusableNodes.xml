@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Pilot_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="BirthDate" Width="651" />
+      </Columns>
+    </ListView>
+    <ListView Id="Airport_Pilots_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="BirthDate" Width="1030" />
+      </Columns>
+    </ListView>
+    <ListView Id="Pilot_Planes_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="ModelOfPlane" Width="650" />
+      </Columns>
+    </ListView>
+    <ListView Id="Plane_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="ModelOfPlane" Width="135" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
